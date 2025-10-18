@@ -1,8 +1,16 @@
 {
-  "rewrites": [
+  "version": 2,
+  "public": true,
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "dist/demo/browser/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/demo/browser/index.html"
     }
   ]
 }
