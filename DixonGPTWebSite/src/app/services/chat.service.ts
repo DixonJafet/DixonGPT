@@ -66,7 +66,7 @@ export class ChatService {
     const requestBody = {
       prompt: `Please provide a brief and concise response. Question: ${userMessageContent} .  Answer:`, // Adjust the key if the API expects something other than 'prompt'
       max_tokens: 200,
-      temperature: 0.7
+      temperature: 0.6
     };
 
     // Make the POST request
