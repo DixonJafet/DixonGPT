@@ -7,7 +7,7 @@ import { Message, Response } from '../models/message.model';
   providedIn: 'root'
 })
 export class ChatService {
-  private apiUrl = 'https://dixon-api.duckdns.org/generate'; // API endpoint
+  private apiUrl = 'https://dixongptapi.duckdns.org/generate'; // API endpoint
 
   private messagesSubject = new BehaviorSubject<Message[]>([
     {
