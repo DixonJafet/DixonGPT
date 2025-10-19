@@ -1,0 +1,5 @@
+llama-cpp-python
+boto3
+fastapi
+uvicorn
+# The `server` extra includes Flask and `pydantic`
