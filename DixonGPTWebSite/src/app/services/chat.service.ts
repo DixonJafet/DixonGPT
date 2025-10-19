@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http'; // Import HttpClient
-import { Message, Response } from '../models/message.model'; // Assuming Response is the interface for the API reply
+import { Message, Response } from '../models/message.model'; 
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChatService {
-  private apiUrl = 'http://ec2-3-17-4-210.us-east-2.compute.amazonaws.com:80/generate'; // API endpoint
+  private apiUrl = 'https://dixon-api.duckdns.org/generate'; // API endpoint
 
   private messagesSubject = new BehaviorSubject<Message[]>([
     {
