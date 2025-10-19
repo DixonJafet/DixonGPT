@@ -7,7 +7,7 @@ import { Message, Response } from '../models/message.model'; // Assuming Respons
   providedIn: 'root'
 })
 export class ChatService {
-  private apiUrl = 'https://3.17.4.210:443/generate'; // API endpoint
+  private apiUrl = 'http://ec2-3-17-4-210.us-east-2.compute.amazonaws.com:80/generate'; // API endpoint
 
   private messagesSubject = new BehaviorSubject<Message[]>([
     {
