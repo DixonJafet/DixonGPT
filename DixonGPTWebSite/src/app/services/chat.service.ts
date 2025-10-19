@@ -64,9 +64,9 @@ export class ChatService {
   private getAiResponse(userMessageContent: string): void {
     // The body for the POST request
     const requestBody = {
-      prompt: `Please provide a brief and concise response. Question: ${userMessageContent} .  Answer:`, // Adjust the key if the API expects something other than 'prompt'
+      prompt: `Please provide one brief and concise response. Question: ${userMessageContent} .  Answer:`, // Adjust the key if the API expects something other than 'prompt'
       max_tokens: 200,
-      temperature: 0.6
+      temperature: 0.4
     };
 
     // Make the POST request
