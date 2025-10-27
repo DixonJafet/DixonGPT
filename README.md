@@ -27,12 +27,13 @@ This project deploys the AI model inside a **Docker container** running on **AWS
 | **Frontend** | ⚡ Angular |
 | **Backend** | 🐍 Python (Mini Llama model) |
 | **Containerization** | 🐳 Docker |
+| **Proxy** | NGINX  |
 | **Infrastructure** | ☁️ AWS (S3, ECR, EC2) |
 
 ---
 
 ## 🚀 Quick Start (coming soon)
-Instructions on how to build, deploy, and run **DixonGPT** will be added here.
+[Go to the WebSite](https://dixon-gpt.vercel.app/).
 
 ---
 
