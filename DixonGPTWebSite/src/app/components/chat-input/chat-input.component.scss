@@ -15,7 +15,7 @@
   padding: 8px 20px;
   transition: all 0.2s ease;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
-  
+
 
   &:focus-within {
     border-color: #6c5ce7;
@@ -25,7 +25,7 @@
 
 .message-input {
   flex: 1;
-  
+
   border: none;
   outline: none;
   resize: none;
@@ -116,7 +116,7 @@
 @media (max-width: 768px) {
   .chat-input-container {
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 3rem;
   }
 
   .input-wrapper {
