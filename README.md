@@ -3,6 +3,7 @@
 DixonGPT is a **web-based chat AI** powered by a **Mini Llama model**, optimized for **minimal resource usage**.  
 The **frontend website** is built with **Angular**, providing a fast and responsive user experience.
 This project deploys the AI model inside a **Docker container** running on **AWS services**, providing an efficient and scalable infrastructure.
+
 ---
 
 ## 🚀 Quick Start
