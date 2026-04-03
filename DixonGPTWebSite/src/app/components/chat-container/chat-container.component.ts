@@ -24,7 +24,7 @@ import { ChatInputComponent } from '../chat-input/chat-input.component';
           <div class="header-text">
             <h1>DixonGPT AI</h1>
             <p>Mini LLM based on Llama Model</p>
-            <p>small version</p>
+            <p>Project could be put on hold due to the cost of AWS.</p>
           </div>
         </div>
       </div>
