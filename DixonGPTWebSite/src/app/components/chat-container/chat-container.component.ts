@@ -23,8 +23,8 @@ import { ChatInputComponent } from '../chat-input/chat-input.component';
           </div>
           <div class="header-text">
             <h1>DixonGPT AI</h1>
-            <p>Mini LLM based on Llama AI</p>
-            <p>Able from 9:00 a.m. to 3:30 p.m. (UTC -6) (CST)</p>
+            <p>Mini LLM based on Llama Model</p>
+            <p>small version</p>
           </div>
         </div>
       </div>
